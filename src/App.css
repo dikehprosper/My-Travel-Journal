@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+/* 
+
+
+.pics {
+  width: 100%;
+  border-radius: 10px;
+}
+.hero {
+  margin: 10px 10px;
+  width: 176px;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.badgeText {
+  color:black;
+  font-weight: bold;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  font-size: 20px;
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ */
+ body {
+  background-color:rgb(173, 173, 184) ;
+ }
+ .nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  background-color: #F55A5A;
+height: 80px;
+font-weight: bold;
+font-size: 20px;
+color: white;
+ }
+ .nav > svg {
+  padding-right: 10px;
+  width: 30px;
+ }
+ .main_body {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  flex: 1;
+  
+ }
+ .hero {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  margin: 50px 35px;
+  grid-gap: 35px;
+  border-bottom: 1px solid rgb(230, 226, 226);
+  padding-bottom: 20px;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ }
+ @media (max-width:500px) {
+  .hero {
+    grid-template-columns: 1fr;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ }
+ .img_container {
+  display: flex;
+ 
+  height: 180px;
+ }
+ .img_container>img {
+  width: 100%;
+  border-radius: 9px;
+ }
+ .detail_container {
+  width: 100%;
+ }
+ .detail_container_location > svg {
+  padding-right: 15px;
+ }
+ .detail_container_location {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+ }
+ .specific_location {
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-right: 15px;
+ }
+ .detail_container_location > a {
+  color: grey;
+
+ }
+ .description  {
+font-weight: 500;
+color: rgb(12, 7, 7, 0.8);
+
+ }
