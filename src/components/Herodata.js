@@ -1,7 +1,7 @@
 export default [
     {
         id : 1,
-        img: "/images/bananasland.jpg",
+        img: "https://businessday.ng/wp-content/uploads/2021/01/Banana-Island.jpg",
         state : "LAGOS",
         googleMap : "https://www.google.com/search?q=google+map+location+of+lagos+island&oq=google+map+location+of+lagos+island&aqs=chrome..69i57j69i64.11662j0j7&sourceid=chrome&ie=UTF-8",
         location : "BANANA ISLAND",
@@ -10,7 +10,7 @@ export default [
     },
     {
         id : 2,
-        img: "/images/owerricapital.jpeg",
+        img: "https://guardian.ng/wp-content/uploads/2017/02/544684_owerri5_jpg05558579923789ef270a9323a304c4f8.jpg",
         state : "IMO",
         googleMap : "https://www.google.com/search?q=google+map+location+of+owerri&sxsrf=ALiCzsa2cigR_COkLdkJdOc7FmsMazWnXw%3A1666543184711&ei=UG5VY63xKo__7_UPwOqzwAQ&ved=0ahUKEwit2ZuU5fb6AhWP_7sIHUD1DEgQ4dUDCA4&uact=5&oq=google+map+location+of+owerri&gs_lcp=Cgdnd3Mtd2l6EAxKBAhBGABKBAhGGABQAFgAYABoAHAAeACAAQCIAQCSAQCYAQA&sclient=gws-wiz",
         location : "OWERRI",
@@ -19,7 +19,7 @@ export default [
     },
     {
         id : 3,
-        img: "/images/Port-Harcourt-City.jpg",
+        img: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Pitakwa.jpg",
         state : "RIVERS",
         googleMap : "https://wwhttps://www.google.com/search?q=google+map+location+of+portharcourt&sxsrf=ALiCzsbLaYfdg8Es5B5ouJmk6niMgKo9Ig%3A1666543724356&ei=bHBVY4eyFaqU9u8P7rmagA0&oq=google+map+location+of+portharcou&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCCEQoAEyBQghEKABOgoIABBHENYEELADOgYIABAWEB46BAgjECc6CAgAEIAEEMsBOggIIRAWEB4QHUoECEEYAEoECEYYAFCNEFjSO2CHT2gCcAF4AIAB6QKIAYcakgEFMi05LjOYAQCgAQHIAQjAAQE&sclient=gws-wizw.google.com/search?q=google+map+location+of+lagos+island&oq=google+map+location+of+lagos+island&aqs=chrome..69i57j69i64.11662j0j7&sourceid=chrome&ie=UTF-8",
         location : "PORT-HARCOURT",
